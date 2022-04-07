@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA1D93527FF43960057BD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D93427FF43960057BD03 /* AppDelegate.swift */; };
+		BAA1D93727FF43960057BD03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D93627FF43960057BD03 /* SceneDelegate.swift */; };
+		BAA1D93927FF43960057BD03 /* MovieShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D93827FF43960057BD03 /* MovieShowsViewController.swift */; };
+		BAA1D93C27FF43960057BD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA1D93A27FF43960057BD03 /* Main.storyboard */; };
+		BAA1D93E27FF43990057BD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA1D93D27FF43990057BD03 /* Assets.xcassets */; };
+		BAA1D94127FF43990057BD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA1D93F27FF43990057BD03 /* LaunchScreen.storyboard */; };
+		BAA1D94C27FF439A0057BD03 /* ARREPU_MOVIEAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D94B27FF439A0057BD03 /* ARREPU_MOVIEAPPTests.swift */; };
+		BAA1D95627FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D95527FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.swift */; };
+		BAA1D95827FF439A0057BD03 /* ARREPU_MOVIEAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D95727FF439A0057BD03 /* ARREPU_MOVIEAPPUITestsLaunchTests.swift */; };
+		BAA1D96727FF47D90057BD03 /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1D96627FF47D90057BD03 /* BookingDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA1D94827FF439A0057BD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA1D92927FF43960057BD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA1D93027FF43960057BD03;
+			remoteInfo = ARREPU_MOVIEAPP;
+		};
+		BAA1D95227FF439A0057BD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA1D92927FF43960057BD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA1D93027FF43960057BD03;
+			remoteInfo = ARREPU_MOVIEAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAA1D93127FF43960057BD03 /* ARREPU_MOVIEAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARREPU_MOVIEAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA1D93427FF43960057BD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAA1D93627FF43960057BD03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAA1D93827FF43960057BD03 /* MovieShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieShowsViewController.swift; sourceTree = "<group>"; };
+		BAA1D93B27FF43960057BD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAA1D93D27FF43990057BD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA1D94027FF43990057BD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAA1D94227FF43990057BD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA1D94727FF439A0057BD03 /* ARREPU_MOVIEAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARREPU_MOVIEAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA1D94B27FF439A0057BD03 /* ARREPU_MOVIEAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARREPU_MOVIEAPPTests.swift; sourceTree = "<group>"; };
+		BAA1D95127FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARREPU_MOVIEAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA1D95527FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARREPU_MOVIEAPPUITests.swift; sourceTree = "<group>"; };
+		BAA1D95727FF439A0057BD03 /* ARREPU_MOVIEAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARREPU_MOVIEAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAA1D96627FF47D90057BD03 /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA1D92E27FF43960057BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94427FF439A0057BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94E27FF439A0057BD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA1D92827FF43960057BD03 = {
+			isa = PBXGroup;
+			children = (
+				BAA1D93327FF43960057BD03 /* ARREPU_MOVIEAPP */,
+				BAA1D94A27FF439A0057BD03 /* ARREPU_MOVIEAPPTests */,
+				BAA1D95427FF439A0057BD03 /* ARREPU_MOVIEAPPUITests */,
+				BAA1D93227FF43960057BD03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA1D93227FF43960057BD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1D93127FF43960057BD03 /* ARREPU_MOVIEAPP.app */,
+				BAA1D94727FF439A0057BD03 /* ARREPU_MOVIEAPPTests.xctest */,
+				BAA1D95127FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA1D93327FF43960057BD03 /* ARREPU_MOVIEAPP */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1D93427FF43960057BD03 /* AppDelegate.swift */,
+				BAA1D93627FF43960057BD03 /* SceneDelegate.swift */,
+				BAA1D93827FF43960057BD03 /* MovieShowsViewController.swift */,
+				BAA1D93A27FF43960057BD03 /* Main.storyboard */,
+				BAA1D93D27FF43990057BD03 /* Assets.xcassets */,
+				BAA1D93F27FF43990057BD03 /* LaunchScreen.storyboard */,
+				BAA1D94227FF43990057BD03 /* Info.plist */,
+				BAA1D96627FF47D90057BD03 /* BookingDetailsViewController.swift */,
+			);
+			path = ARREPU_MOVIEAPP;
+			sourceTree = "<group>";
+		};
+		BAA1D94A27FF439A0057BD03 /* ARREPU_MOVIEAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1D94B27FF439A0057BD03 /* ARREPU_MOVIEAPPTests.swift */,
+			);
+			path = ARREPU_MOVIEAPPTests;
+			sourceTree = "<group>";
+		};
+		BAA1D95427FF439A0057BD03 /* ARREPU_MOVIEAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1D95527FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.swift */,
+				BAA1D95727FF439A0057BD03 /* ARREPU_MOVIEAPPUITestsLaunchTests.swift */,
+			);
+			path = ARREPU_MOVIEAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA1D93027FF43960057BD03 /* ARREPU_MOVIEAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA1D95B27FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPP" */;
+			buildPhases = (
+				BAA1D92D27FF43960057BD03 /* Sources */,
+				BAA1D92E27FF43960057BD03 /* Frameworks */,
+				BAA1D92F27FF43960057BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARREPU_MOVIEAPP;
+			productName = ARREPU_MOVIEAPP;
+			productReference = BAA1D93127FF43960057BD03 /* ARREPU_MOVIEAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA1D94627FF439A0057BD03 /* ARREPU_MOVIEAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA1D95E27FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPPTests" */;
+			buildPhases = (
+				BAA1D94327FF439A0057BD03 /* Sources */,
+				BAA1D94427FF439A0057BD03 /* Frameworks */,
+				BAA1D94527FF439A0057BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA1D94927FF439A0057BD03 /* PBXTargetDependency */,
+			);
+			name = ARREPU_MOVIEAPPTests;
+			productName = ARREPU_MOVIEAPPTests;
+			productReference = BAA1D94727FF439A0057BD03 /* ARREPU_MOVIEAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA1D95027FF439A0057BD03 /* ARREPU_MOVIEAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA1D96127FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPPUITests" */;
+			buildPhases = (
+				BAA1D94D27FF439A0057BD03 /* Sources */,
+				BAA1D94E27FF439A0057BD03 /* Frameworks */,
+				BAA1D94F27FF439A0057BD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA1D95327FF439A0057BD03 /* PBXTargetDependency */,
+			);
+			name = ARREPU_MOVIEAPPUITests;
+			productName = ARREPU_MOVIEAPPUITests;
+			productReference = BAA1D95127FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA1D92927FF43960057BD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BAA1D93027FF43960057BD03 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BAA1D94627FF439A0057BD03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BAA1D93027FF43960057BD03;
+					};
+					BAA1D95027FF439A0057BD03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BAA1D93027FF43960057BD03;
+					};
+				};
+			};
+			buildConfigurationList = BAA1D92C27FF43960057BD03 /* Build configuration list for PBXProject "ARREPU_MOVIEAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA1D92827FF43960057BD03;
+			productRefGroup = BAA1D93227FF43960057BD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA1D93027FF43960057BD03 /* ARREPU_MOVIEAPP */,
+				BAA1D94627FF439A0057BD03 /* ARREPU_MOVIEAPPTests */,
+				BAA1D95027FF439A0057BD03 /* ARREPU_MOVIEAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA1D92F27FF43960057BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1D94127FF43990057BD03 /* LaunchScreen.storyboard in Resources */,
+				BAA1D93E27FF43990057BD03 /* Assets.xcassets in Resources */,
+				BAA1D93C27FF43960057BD03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94527FF439A0057BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94F27FF439A0057BD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA1D92D27FF43960057BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1D93927FF43960057BD03 /* MovieShowsViewController.swift in Sources */,
+				BAA1D93527FF43960057BD03 /* AppDelegate.swift in Sources */,
+				BAA1D93727FF43960057BD03 /* SceneDelegate.swift in Sources */,
+				BAA1D96727FF47D90057BD03 /* BookingDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94327FF439A0057BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1D94C27FF439A0057BD03 /* ARREPU_MOVIEAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1D94D27FF439A0057BD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1D95827FF439A0057BD03 /* ARREPU_MOVIEAPPUITestsLaunchTests.swift in Sources */,
+				BAA1D95627FF439A0057BD03 /* ARREPU_MOVIEAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA1D94927FF439A0057BD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA1D93027FF43960057BD03 /* ARREPU_MOVIEAPP */;
+			targetProxy = BAA1D94827FF439A0057BD03 /* PBXContainerItemProxy */;
+		};
+		BAA1D95327FF439A0057BD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA1D93027FF43960057BD03 /* ARREPU_MOVIEAPP */;
+			targetProxy = BAA1D95227FF439A0057BD03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA1D93A27FF43960057BD03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA1D93B27FF43960057BD03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA1D93F27FF43990057BD03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA1D94027FF43990057BD03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAA1D95927FF439A0057BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA1D95A27FF439A0057BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA1D95C27FF439A0057BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARREPU_MOVIEAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ARREPU_MOVIEAPP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA1D95D27FF439A0057BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARREPU_MOVIEAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ARREPU_MOVIEAPP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAA1D95F27FF439A0057BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARREPU_MOVIEAPP.app/ARREPU_MOVIEAPP";
+			};
+			name = Debug;
+		};
+		BAA1D96027FF439A0057BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARREPU_MOVIEAPP.app/ARREPU_MOVIEAPP";
+			};
+			name = Release;
+		};
+		BAA1D96227FF439A0057BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARREPU_MOVIEAPP;
+			};
+			name = Debug;
+		};
+		BAA1D96327FF439A0057BD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri.ARREPU-MOVIEAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARREPU_MOVIEAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA1D92C27FF43960057BD03 /* Build configuration list for PBXProject "ARREPU_MOVIEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1D95927FF439A0057BD03 /* Debug */,
+				BAA1D95A27FF439A0057BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA1D95B27FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1D95C27FF439A0057BD03 /* Debug */,
+				BAA1D95D27FF439A0057BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA1D95E27FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1D95F27FF439A0057BD03 /* Debug */,
+				BAA1D96027FF439A0057BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA1D96127FF439A0057BD03 /* Build configuration list for PBXNativeTarget "ARREPU_MOVIEAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1D96227FF439A0057BD03 /* Debug */,
+				BAA1D96327FF439A0057BD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA1D92927FF43960057BD03 /* Project object */;
+}
